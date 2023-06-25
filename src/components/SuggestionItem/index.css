@@ -1,0 +1,29 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow-image {
+  color: #bfbfbf;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.suggestion-text {
+  color: #475569;
+  font-size: 22px;
+}
+@media screen and (max-width: 576px) {
+  .suggestion-text {
+    font-size: 12px;
+  }
+  .arrow-image {
+    width: 15px;
+    height: 15px;
+  }
+}
